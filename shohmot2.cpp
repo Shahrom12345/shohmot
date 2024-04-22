@@ -6,15 +6,15 @@ int main()
 
  //ASP
 {
-  int x1,x2,y1,y2;
-  cin>>x1>>y1>>x2>>y2;
-  if(x1>8 || x2>8 || y1>8 || y2>8){
+  int x2,x4,y2,y4;
+  cin>>x2>>y2>>x4>>y4;
+  if(x2>8 || x4>8 || y2>8 || y4>8){
      cout<<"your must enter 1-8 if1";
   }
-  else if(x1<0 and x2<0 and y1<0 and y2<0){
+  else if(x2<0 and x4<0 and y2<0 and y4<0){
     cout<<"your must enter 1-8 if2";
   }
-   else if(x1-x2==1 and y1-y2==2 || x1-x2==2 and y1-y2==1 )
+   else if(x2-x4==1 and y2-y4==2 || x2-x4==2 and y2-y4==1 )
   {
       cout<<"Yes";
   }
