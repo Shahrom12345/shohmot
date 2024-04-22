@@ -6,60 +6,60 @@ int main()
 
  //PESHKA
 {
-  int x1,x2,y1,y2;
-  cin>>x1>>y1>>x2>>y2;
-  if(x1>8 || x2>8 || y1>8 || y2>8){
-     cout<<"your must enter 1-8 if1";
+  int x2,x4,y2,y4;
+  cin>>x2>>y2>>x4>>y4;
+  if(x2>8 || x4>8 || y2>8 || y4>8){
+     cout<<"Your must enter 1-8 if1";
   }
-  else if(x1<0 and x2<0 and y1<0 and y2<0){
-    cout<<"your must enter 1-8 if2";
+  else if(x2<0 and x4<0 and y2<0 and y4<0){
+    cout<<"Your must enter 1-8 if2";
   }
-   else if(y1 == 2)
+   else if(y2 == 2)
 
 
-  if((y2-1 == y1 || y2-2 == y1) &&  x2==x1){
-    cout<<"Rafta metona"<<endl;
+  if((y4-1 == y2 || y4-2 == y2) &&  x4==x2){
+    cout<<"RAFTA METONAD"<<endl;
   }
-  else if(y2-1 == y1 && abs(x1-x2)==1){
-    cout<<"Zada metonad"<<endl;
+  else if(y4-1 == y2 && abs(x2-x4)==1){
+    cout<<"ZADA METONAD"<<endl;
   }
   else{
-    cout<<"na rafta metonad na zada metonad"<<endl;
+    cout<<"NA RAFTA METONAD NA ZADA METONAD"<<endl;
   }
 
 
-  else if(y1 > 2)
-  if(y2-1 == y1 && x2==x1){
-    cout<<"Rafta metonad"<<endl;
+  else if(y2 > 2)
+  if(y4-1 == y2 && x4==x2){
+    cout<<"RAFTA METONAD"<<endl;
 
   }
-  if(y1 == 8){
-    cout<<"choose your figure:";
+  if(y2 == 8){
+    cout<<"Choose your figure:";
     string name_of_figure;
-    string ferz="ferz";
-    string asp="asp";
-    string ruh="ruh";
-    string fil="fil";
+    string FARZIN="FARZIN";
+    string ASP="ASP";
+    string RUH="RUH";
+    string FIL="FIL";
     cin>>name_of_figure;
-    if(name_of_figure == ferz){
-        cout<<"Ferz shud!"<<endl;
+    if(name_of_figure == FARZIN){
+        cout<<"FARZIN SHUD!"<<endl;
     }
-    if(name_of_figure == asp){
-        cout<<"asp shud!"<<endl;
+    if(name_of_figure == ASP){
+        cout<<"ASP SHUD!"<<endl;
         }
-    if(name_of_figure == ruh){
-        cout<<"ruh shud!"<<endl;
+    if(name_of_figure == RUH){
+        cout<<"RUH SHUD!"<<endl;
         }
-    if(name_of_figure == fil){
-        cout<<"fil shud!"<<endl;
+    if(name_of_figure == FIL){
+        cout<<"FIL SHUD!"<<endl;
         }
 
   }
-  else if(y2-1 == y1 && abs(x1-x2)==1){
-    cout<<"zada metonad"<<endl;
+  else if(y4-1 == y2 && abs(x2-x4)==1){
+    cout<<"ZADA METONAD"<<endl;
   }
   else {
-    cout<<"na rafta metonad na zada metonad";
+    cout<<"NA RAFTA METONAD NA ZADA METONAD";
   }
 
 
